@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+
+    <title>Login</title>
+  </head>
+  <body>
+    <main>
+      <aside>
+        <div class="login-container">
+          <img src="imgs/logo.svg" alt="logo" id="logo" />
+          <h1>Login into your account</h1>
+          <form>
+            <div class="input-container">
+              <label for="email">Email Adress</label>
+              <div class="input-inner-container">
+                <input
+                  name="email"
+                  type="email"
+                  id="email"
+                  placeholder="alex@mail.com"
+                /><span class="input-icon-bg"
+                  ><img src="imgs/letter.svg" alt="icon"
+                /></span>
+              </div>
+            </div>
+            <div class="input-container">
+              <label for="password">Password</label>
+              <div class="input-inner-container">
+                <input
+                  name="password"
+                  id="password"
+                  type="text"
+                  placeholder="Enter your password"
+                /><span class="input-icon-bg"
+                  ><img src="imgs/lock.svg" alt="icon"
+                /></span>
+              </div>
+            </div>
+            <a href="#">Forgot password?</a>
+          </form>
+          <button class="filled-btn">Login Now</button>
+          <div class="line-container">
+            <div class="line"></div>
+            <p>OR</p>
+            <div class="line"></div>
+          </div>
+          <button class="outline-btn">Signup Now</button>
+        </div>
+      </aside>
+      <section>
+        <img src="imgs/login-illustrator.svg" alt="main-image" />
+      </section>
+    </main>
+  </body>
+</html>
