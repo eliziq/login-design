@@ -134,3 +134,16 @@ section {
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 480px) {
+  section {
+    display: none;
+  }
+}
+@media screen and (max-width: 930px) {
+  section {
+    flex: 1.5;
+  }
+  section img {
+    width: 100%;
+  }
+}
